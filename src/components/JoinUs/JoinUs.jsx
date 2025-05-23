@@ -1,5 +1,7 @@
 import React from "react";
 import { FaRegEnvelopeOpen } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
 
 const JoinUs = () => {
   return (
@@ -39,12 +41,17 @@ const JoinUs = () => {
                 className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600"
               />
             </div>
-            <button
-              type="submit"
-              className="w-full bg-blue-600 text-white font-semibold py-3 rounded-lg hover:bg-[#10244b] transition duration-200"
-            >
-              Notify Me
-            </button>
+            <Link
+  to=""
+  className="relative group block w-full sm:w-auto text-center bg-blue-600 hover:bg-[#10244b] text-white px-6 py-3 rounded-lg font-semibold text-md overflow-hidden min-w-[160px] h-[44px] transition-colors duration-300 ease-in-out"
+>
+  <span className="absolute inset-0 flex items-center justify-center transition-transform duration-300 group-hover:-translate-y-full">
+    Notify me 
+  </span>
+  <span className="absolute inset-0 flex items-center justify-center transition-transform duration-300 translate-y-full group-hover:translate-y-0">
+     Notify me 
+  </span>
+</Link>
           </form>
         </div>
 

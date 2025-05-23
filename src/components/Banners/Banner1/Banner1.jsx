@@ -1,5 +1,7 @@
 import React from 'react';
 import img from '../Banner1/Banner1Images/Doc.png'
+import { Link } from 'react-router-dom';
+
 
 const Banner1 = () => {
   return (
@@ -19,17 +21,17 @@ const Banner1 = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row lg:items-center justify-start space-y-4 sm:space-y-0 sm:space-x-6 pt-6">
-            <button className="relative group bg-blue-600 hover:bg-[#10244b] text-white font-semibold px-8 py-4 text-lg rounded-lg overflow-hidden transition-colors duration-300 ease-in-out min-w-[160px] h-[56px]">
-              {/* Default Text */}
-              <span className="absolute inset-0 flex items-center justify-center transition-transform duration-300 group-hover:-translate-y-full">
-                Book a Visit
-              </span>
-
-              {/* Hover Text */}
-              <span className="absolute inset-0 flex items-center justify-center transition-transform duration-300 translate-y-full group-hover:translate-y-0">
-                Book a Visit
-              </span>
-            </button>
+            <Link
+  to="/#appointment"
+  className="relative group block w-full sm:w-auto text-center bg-blue-600 hover:bg-[#10244b] text-white px-6 py-3 rounded-lg font-semibold text-md overflow-hidden min-w-[160px] h-[44px] transition-colors duration-300 ease-in-out"
+>
+  <span className="absolute inset-0 flex items-center justify-center transition-transform duration-300 group-hover:-translate-y-full">
+    Book a Visit
+  </span>
+  <span className="absolute inset-0 flex items-center justify-center transition-transform duration-300 translate-y-full group-hover:translate-y-0">
+    Book a Visit
+  </span>
+</Link>
 
             <div className="flex items-center space-x-3">
               <div className="flex -space-x-2">

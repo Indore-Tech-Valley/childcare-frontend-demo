@@ -67,7 +67,7 @@ const Testimonial = () => {
         >
           {testimonials.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white p-12 rounded-2xl shadow-md text-left h-full flex flex-col justify-between min-h-[400px] relative">
+              <div className="bg-white p-12 rounded-2xl  text-left h-full flex flex-col justify-between min-h-[400px] relative">
                 <FaQuoteLeft className="text-blue-500 text-2xl mb-4" />
                 <p className="text-gray-600 mb-6">&ldquo;{item.quote}&rdquo;</p>
                 <div className="flex items-center space-x-4 mt-auto">

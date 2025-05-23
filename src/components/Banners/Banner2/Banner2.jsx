@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const images = [
-  'https://health.uconn.edu/orthopedics-sports-medicine/wp-content/uploads/sites/161/2018/03/child-doctor-highfive.jpg',
+  'https://www.lotushospitals.in/wp-content/uploads/2025/03/Pediatric-neurology-specialist.jpg',
   'https://sa1s3optim.patientpop.com/assets/images/provider/photos/2720518.png',
   'https://www.metropediatrics.com/wp-content/uploads/2024/05/child-doctor-checkup.jpg'
 ];

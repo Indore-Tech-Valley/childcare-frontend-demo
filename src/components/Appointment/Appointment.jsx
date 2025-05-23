@@ -93,13 +93,13 @@ const Appointment = () => {
                   <label htmlFor="date" className="block mb-1 text-gray-700 font-medium">
                     Date
                   </label>
-                  <input
-                    id="date"
-                    
-                    type="date"
-                    className="w-full border border-gray-300 rounded-md px-4 py-3"
-                    defaultValue={new Date().toISOString().split("T")[0]}
-                  />
+                 <input
+  id="date"
+  type="date"
+  className="w-full border border-gray-300 rounded-md px-4 py-3"
+  defaultValue={new Date().toISOString().split("T")[0]}
+  min={new Date().toISOString().split("T")[0]} // disables past dates
+/>
                 </div>
                 <div className="w-1/2">
                   <label htmlFor="time" className="block mb-1 text-gray-700 font-medium">

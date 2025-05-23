@@ -94,10 +94,7 @@ const Footer = () => {
             <img src={logo} alt="logo" className="w-auto h-14 text-white mb-5" />
           </div>
           <p className="text-gray-300 text-[15px] leading-relaxed">
-            At ChildCareClinic, we’re dedicated to providing high-quality,
-            personalized dental care for children and families. Our skilled team
-            uses the latest technology to ensure gentle, effective treatments
-            for bright, healthy smiles.
+           "At ChildCareClinic, we’re dedicated to providing expert, personalized healthcare designed exclusively for children. Our skilled team uses the latest medical advancements to ensure gentle, effective treatments that support every child’s growth and well-being."
           </p>
           <div className="flex items-center gap-4 mt-6 text-xl text-gray-400">
             <FaFacebookF className="hover:text-white cursor-pointer" />

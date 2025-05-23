@@ -78,7 +78,7 @@ const Services = () => {
           SERVICES
         </h2>
        <h3 className="mb-4 lg:text-center text-left text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0a1d42] leading-tight">
-  Complete Dental Solutions Tailored to You
+ Comprehensive Care for Every Growing Child
 </h3>
 
 
